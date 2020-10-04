@@ -1,0 +1,199 @@
+body, .content, .bginfo{
+    display:flex;
+    width: 100%; 
+}
+
+body, .bginfo, .info{
+    text-align: center;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+    background-color:#F8F1F9 ;
+    height: 100%;
+    
+    
+}
+
+.header{
+    padding: 2em;
+    margin:0 0 .5em 0;
+}
+
+.content, .bginfo, .info{
+     justify-content: space-evenly; 
+}
+
+#player{
+
+    width: 720;
+      height: 405
+
+}
+
+ul{
+   list-style-type: none;
+}
+
+.line{
+    border-right: 3px solid #2A2A44;
+}
+
+.line, .fa-linkedin-square{
+
+    padding: 0.5em;
+}
+
+h1, h2{
+
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px;
+}
+
+#pagetitle1{
+    font-size: 2em;
+}
+
+.description, .bginfo, .footer .line, .email, .fa-linkedin-square{
+    font-family: roboto;
+    color: #2A2A44;
+    text-decoration: none;
+
+} 
+
+.bginfo{
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    height: 75%;
+    margin-bottom: 0;
+    padding:0;
+}
+
+.bgtitle{
+    font-size: 2em;
+    color: #2A2A44;
+}
+.infoitem{
+ flex:1;
+ display: flex;
+ align-items: center;
+}
+
+
+.gradient-text {
+    background-color: #5E2B64;
+    background-image: linear-gradient(#5E2B64, #844174,#5E2B64);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+}
+.clickable:hover{
+    font-size: 1.5em;
+
+}
+
+.fa-linkedin-square:hover{
+    color: #0072b1;
+}
+
+.footer, .header{
+    background-color: #DCB8E0;
+}
+
+.footer{
+
+   padding:1em;
+}
+@media (max-width: 1263px) {
+    #pagetitle1 {
+        font-size: 1.5em;
+    }
+    
+    }
+  
+@media (max-width: 1000px) {
+
+    body{
+        height:auto;
+    }
+
+    #pagetitle1, .bgtitle {
+        font-size: 1em;
+    }
+
+    .bginfo{
+        font-size: 1em;
+        height: 100%;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: auto;
+    }
+
+    #player{
+        display: block;
+
+    }
+    .header {
+        padding: 1em;
+    }
+
+    .clickable:hover{
+        font-size: 1.25em;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    
+  }
+  
+
+@media (max-width: 720px){
+     
+    #player{
+            width: 540;
+              height: 303;
+        }
+
+  
+    }
+    @media (max-width: 680px){
+     
+        #pagetitle1, .bgtitle {
+            font-size: .75em;
+        }
+      
+        }
+
+        @media (max-width: 560px){
+     
+            #pagetitle1 {
+                font-size: .50em;
+            }
+
+            #player{
+                width: 360;
+                  height: 202;
+            }
+
+            .header a, .footer i{
+                display:block;
+            }
+
+            .line{
+                border-bottom: 3px solid #2A2A44;
+                border-right:none;
+            }
+          
+            }
+
