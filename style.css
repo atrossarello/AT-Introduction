@@ -1,0 +1,219 @@
+body, .content, .bginfo{
+    display:flex;
+    width: 100%; 
+}
+
+body, .bginfo, .info{
+    text-align: center;
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+    background-color:#F8F1F9 ;
+    height: 100%;
+    
+    
+}
+
+.header{
+    padding: 2em;
+    margin:0 0 .5em 0;
+}
+
+.content, .bginfo, .info{
+     justify-content: space-evenly; 
+}
+
+#player{
+
+    width: 720;
+      height: 405
+
+}
+
+ul{
+   list-style-type: none;
+}
+
+.line{
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-image: url(Copper.jpg) 1 100%;
+    border-bottom: 3px solid #2A2A44;
+    
+    
+}
+
+.line, .fa-linkedin-square{
+
+    padding: 0.5em;
+}
+
+h1, h2{
+
+    font-family: 'Sura', serif;
+    letter-spacing: 3px;
+}
+
+#pagetitle1{
+    font-size: 2em;
+}
+
+.description{
+    font-family: 'Suranna', serif;
+    font-weight: 200;
+    color: #F8F1F9 ;
+    text-decoration: none;
+    text-shadow: -1px 0 #A75D38, 0 1px #A75D38, 1px 0 #A75D38, 0 -1px #A75D38;
+    padding-left: 0.75em;
+    
+}
+
+.bginfo, .footer .line, .email{
+    font-family: roboto;
+    /* color: #A75D38; */
+    color: #0a2e36;
+    text-decoration: none;
+
+} 
+
+.bginfo{
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    height: 75%;
+    margin-bottom: 0;
+    padding:0;
+}
+
+.bgtitle{
+    font-size: 2em;
+    color: #0a2e36;
+}
+.infoitem{
+ flex:1;
+ display: flex;
+ align-items: center;
+}
+
+
+.gradient-text, .line, .fa-linkedin-square {
+    background-color: #5E2B64;
+    background-image: url(Copper.jpg);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+
+}
+.clickable:hover{
+    font-size: 1.25em;
+
+}
+
+.fa-linkedin-square:hover{
+    background-color: #0072b1;
+    background-image: none;
+}
+
+.footer, .header{
+    background-color: #0a2e36;
+}
+
+.footer{
+
+   padding:1em;
+}
+@media (max-width: 1263px) {
+    #pagetitle1 {
+        font-size: 1.5em;
+    }
+    
+    }
+  
+@media (max-width: 1000px) {
+
+    body{
+        height:auto;
+    }
+
+    #pagetitle1, .bgtitle {
+        font-size: 1em;
+    }
+
+    .bginfo{
+        font-size: 1em;
+        height: 100%;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: auto;
+    }
+
+    #player{
+        display: block;
+
+    }
+    .header {
+        padding: 1em;
+    }
+
+    .clickable:hover{
+        font-size: 1.25em;
+    }
+
+    .footer {
+        display: block;
+    }
+
+    
+  }
+  
+
+@media (max-width: 720px){
+     
+    #player{
+            width: 540;
+              height: 303;
+        }
+
+  
+    }
+    @media (max-width: 680px){
+     
+        #pagetitle1, .bgtitle {
+            font-size: .75em;
+        }
+      
+        }
+
+        @media (max-width: 560px){
+     
+            #pagetitle1 {
+                font-size: .50em;
+            }
+
+            #player{
+                width: 360;
+                  height: 202;
+            }
+
+            .header a, .footer i{
+                display:block;
+            }
+
+            .line{
+                
+                border-bottom-width: 3px;
+                border-bottom-style: solid;
+                border-image: url(Copper.jpg) 100;
+                border-right:none;
+            }
+          
+            }
+
