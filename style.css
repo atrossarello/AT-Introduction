@@ -10,7 +10,7 @@ body, .bginfo, .info{
 
 body{
     margin: 0;
-    background-color:#F8F1F9 ;
+    background-color:#F3FFB6 ;
     height: 100%;
     
     
@@ -63,7 +63,7 @@ h1, h2{
 .description{
     font-family: 'Suranna', serif;
     font-weight: 200;
-    color: #F8F1F9 ;
+    color: #F3FFB6 ;
     text-decoration: none;
     text-shadow: -1px 0 #A75D38, 0 1px #A75D38, 1px 0 #A75D38, 0 -1px #A75D38;
     padding-left: 0.75em;
