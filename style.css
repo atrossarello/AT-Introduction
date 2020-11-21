@@ -70,13 +70,16 @@ h1, h2{
     
 }
 
-.bginfo, .footer .line, .email{
+.bginfo, .footer .line, .email, .dashboard{
     font-family: roboto;
     /* color: #A75D38; */
     color: #0a2e36;
     text-decoration: none;
-
 } 
+.dashboard
+{
+    text-decoration: underline;
+}
 
 .bginfo{
     align-items: center;
